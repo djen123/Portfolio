@@ -1,0 +1,161 @@
+* {
+  
+    box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+body {
+    background: #51d0de;
+  
+   
+}
+#container{
+    background-color:white;
+
+    width:1000px;
+    margin:auto;
+}
+
+
+/*navigation*/
+.navbar{
+ 
+    background: #222;
+    padding: 20px;
+    text-align: right;
+
+    
+}
+.navbar a{
+
+        color: white;
+
+        text-decoration: none;
+        padding:30px;
+         font-weight: bold;
+
+}
+.navbar a:hover{
+    color:brown;
+}
+
+/** header **/
+
+.header{
+     position:relative;
+  
+    
+}
+#bio{
+    
+  margin:10px 0px 0px 50px;
+ 
+
+    
+}
+#contactInfo{
+  
+    position:absolute;
+    top:0px;
+    right:10px;
+
+}
+#contactInfo ul {
+    list-style: none;
+}
+
+/** about me section **/
+#aboutme{
+    background-color:  #7acfd6;
+    color:#00303F;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding:5px 10px;
+ 
+    margin:10px;
+    border: 1px solid white;
+}
+
+.h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+/* experience section*/
+#experience{
+        background-color:  #7acfd6;
+    color:#00303F;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding:5px 10px;
+ 
+    margin:10px;
+    border: 1px solid white;
+
+}
+/** project section**/
+
+#projects{
+    background-color:#F5E7DE;
+    color:#00303F;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding:5px 10px;
+ 
+    margin:10px;
+    border: 1px solid white;
+    text-align: center;
+  
+
+}
+.projectitem{
+    display: inline-block;
+    border: 2px solid #BDBCB8;
+    margin:5px;
+    width: 450px;
+padding:10px;
+
+}
+.projectitem h4{
+    text-align: center;
+}
+#skills{
+    background-color: #F5E7DE ;
+    margin:10px;
+    text-align: center;
+
+}
+.skill{
+    display:inline-block;
+    border-radius: 25px;
+  border: 2px solid #04AA6D;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  margin:5px;
+  padding:5px 20px;
+  position:relative;
+
+}
+.skill h4{
+     padding-top:30px;
+ }
+ .skill img{ 
+       position:absolute;
+       top:5px;
+       left:70px;
+ }
+ footer {
+text-align: center;
+padding: 10px;
+background-color: #222;;
+color:white;
+ font-weight: bold;
+}
+
