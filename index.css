@@ -1,10 +1,18 @@
   body {
-            background: #f5f7fa;
+            
+            
     }
+    /** style for cards **/
+    * {
+box-sizing: border-box;
+}
   .profile-card {
             transition: 0.3s;
             
+
+            
        }
+       
   .profile-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -16,12 +24,11 @@
             border-radius: 50%;
         }
     
-* {
-box-sizing: border-box;
-}
+
 
 .navbar{
 margin:10px auto;
+
 
 
 }
@@ -36,46 +43,12 @@ margin:10px auto;
 
 }
 
-
-
-
-
-/** style for request notification icon**/
-.request-wrapper {
-  position: relative;
-
-
-}
-
-
-.request-btn {
-  background-color: #1877f2; 
-  border: none;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 20px;
- 
-}
-
-.request-badge {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  background-color: #e41e3f; 
-  color: #fff;
-  border-radius: 50%;
-  padding: 2px 6px;
-  font-size: 11px;
-  font-weight: 600;
-  min-width: 18px;
-  text-align: center;
-  box-shadow: 0 0 0 2px #fff; 
+/**left side box**/
+.leftside-box {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 
